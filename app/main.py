@@ -6,6 +6,6 @@ app=Flask(__name__)
 def msg():
     return "Helloworld ! Deployed using argocd"
 
-if __name__==__main__:
+if __name__ == "__main__":
     app.Run(host='0.0.0.0')
 
