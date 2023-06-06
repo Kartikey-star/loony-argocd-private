@@ -20,5 +20,5 @@ spec:
       - name: regcred
       containers:
         - name: hello-deployment
-          image: kmamgain/hello-app:v1
+          image: kmamgain/hello-app:v2
           imagePullPolicy: Always
